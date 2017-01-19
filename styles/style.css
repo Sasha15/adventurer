@@ -1,3 +1,49 @@
-body{
-	background-color:  #fff;
+a{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.row{
+	max-width: 1170px;
+}
+
+.logo{
+	font-family: 'PT Sans', sans-serif;
+	color: #ec4848;
+	font-size: 33.37px;
+	font-weight: 700;
+	text-align: right;
+	transform: scaleY(1.0188)
+}
+.logo:hover{
+	color: #ec4848;
+}
+
+.top-bar,
+.top-bar ul{
+	background-color: transparent;
+	list-style: none;
+	margin: 0;
+}
+.loupe{
+	cursor: pointer;
+}
+.search-form, .search-form label, .search-form button, .loupe{
+	display: inline-block;
+}
+.search-form input{
+	margin-bottom: 0;
+	margin-right: 5px;
+	width:  100px;
+	padding: 5px;
+	border: 1px solid #eee;
+	display: none;
+	height: 25px;
+}
+.search-form button{
+	display: none;
+	font-size: 12px;
+	padding:  6px 5px;
+	background-color: #ec4848;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: #fff;
 }

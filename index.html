@@ -10,14 +10,63 @@
 	<link type="image/png" href="favicon.png" rel="apple-touch-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 	<title>Adventurer</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700|Roboto+Condensed:300,400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/plugins/normolize.css">
 	<link rel="stylesheet" type="text/css" href="styles/plugins/foundation.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/media-screens.css">
+	<script src="https://use.fontawesome.com/bd593086f7.js"></script>
 </head>
 <body>
 <header class="header">
+	<div class="row small-collapse">
+		<div class="large-3 small-12 columns text-center large-text-center">
+			<a href="#" class="logo" title="Adventurer">Adventurer</a>
+		</div>
+		<div class="large-9 small-12 columns">
+			<nav class="top-bar" data-topbar role="navigation">
+				<ul class="title-area show-for-small-only">
+					<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+					<li class="toggle-topbar menu-icon">
+						<a href="#">
+						<span>Menu</span>
+						<span class="sandwich-icon">
+							<span></span>
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+						</a>
+					</li>
+				</ul>
 
+				<section class="top-bar-section">
+					<ul class="medium-text-center large-text-right">
+						<li class="active"><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Service</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Support</a></li>
+						<li class="form-list-item">
+							<form method="POST" class="search-form">
+								<label for="search">
+									<input type="text" name="search">
+								</label>
+								<button type="button">Search</button>
+							</form>
+							<div class="loupe">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</div>
+						</li>
+					</ul>
+
+				</section>
+			</nav>
+		</div>
+	</div>
 </header>
+
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/plugins/foundation.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
